@@ -1,5 +1,10 @@
+import React, { useState } from "react";
 import styled from "styled-components";
-import { nextWord, changeBackground } from "../helpers/flashcard-generator";
+import {
+  nextWord,
+  changeBackground,
+  changeFont,
+} from "../helpers/flashcard-generator";
 
 export const NextButton = ({ onClick }) => {
   return (
@@ -17,8 +22,16 @@ export const ChangeBackgroundButton = ({ onClick }) => {
   );
 };
 
+export const ChangeFontButton = ({ onClick, fontStandard }) => {
+  return (
+    <StyledButton onClick={onClick} className="change-font-button">
+      {fontStandard ? "Use Dyslexia Font" : "Use Standard Font"}
+    </StyledButton>
+  );
+};
+
 const StyledButton = styled.button`
-  margin: 0 2px;
+  margin: 3px 2px;
   height: 50px;
   background-color: yellow;
   color: black;
@@ -31,11 +44,17 @@ export const Buttons = ({
   backgroundIndex,
   setBackgroundIndex,
 }) => {
+  const [fontStandard, setFontStandard] = useState(true);
+
   return (
-    <div className="buttons-container">
+    <div className="buttons-container" style={{ width: 300 }}>
       <NextButton onClick={() => nextWord(wordIndex, setWordIndex, setWord)} />
       <ChangeBackgroundButton
         onClick={() => changeBackground(backgroundIndex, setBackgroundIndex)}
+      />
+      <ChangeFontButton
+        onClick={() => changeFont(fontStandard, setFontStandard)}
+        fontStandard={fontStandard}
       />
     </div>
   );

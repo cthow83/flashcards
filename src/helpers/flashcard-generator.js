@@ -51,3 +51,12 @@ export const changeBackground = (backgroundIndex, setBackgroundIndex) => {
   }
   document.body.style.backgroundColor = backgroundColors[backgroundIndex];
 };
+
+export const changeFont = (fontStandard, setFontStandard) => {
+  setFontStandard(!fontStandard);
+  if (fontStandard) {
+    document.body.classList.add("dyslexic-font");
+  } else {
+    document.body.classList.remove("dyslexic-font");
+  }
+};

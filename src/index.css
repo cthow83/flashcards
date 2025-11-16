@@ -1,3 +1,10 @@
+/* OpenDyslexic font-face (CDN) */
+@import url("https://fonts.cdnfonts.com/css/opendyslexic");
+
+body.dyslexic-font,
+.dyslexic-font {
+  font-family: "OpenDyslexic", Arial, sans-serif !important;
+}
 /* Ensure the Next button appears above overlapping elements */
 .next-button {
   position: relative;
