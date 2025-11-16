@@ -11,6 +11,19 @@ const words = [
   "illustration",
 ];
 
+const syllables = [
+  "a-do-ra-tion",
+  "ad-mi-ra-tion",
+  "cor-o-na-tion",
+  "det-o-na-tion",
+  "ob-ser-va-tion",
+  "lo-ca-tion",
+  "gen-er-a-tion",
+  "ex-plor-a-tion",
+  "com-bi-na-tion",
+  "il-lus-tra-tion",
+];
+
 const emoji = [
   "😍", // adoration
   "👏", // admiration
@@ -40,7 +53,11 @@ export const nextWord = (wordIndex, setWordIndex, setWord) => {
   } else {
     setWordIndex(wordIndex + 1);
   }
-  setWord({ word: words[wordIndex], emoji: emoji[wordIndex] });
+  setWord({
+    word: words[wordIndex],
+    emoji: emoji[wordIndex],
+    syllables: syllables[wordIndex],
+  });
 };
 
 export const changeBackground = (backgroundIndex, setBackgroundIndex) => {

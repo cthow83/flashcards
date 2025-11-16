@@ -1,23 +1,11 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import {
-  nextWord,
-  changeBackground,
-  changeFont,
-} from "../helpers/flashcard-generator";
+import { changeBackground, changeFont } from "../helpers/flashcard-generator";
 
-export const NextButton = ({ onClick }) => {
+export const Button = ({ onClick, name }) => {
   return (
-    <StyledButton onClick={onClick} className="next-button">
-      Next
-    </StyledButton>
-  );
-};
-
-export const ChangeBackgroundButton = ({ onClick }) => {
-  return (
-    <StyledButton onClick={onClick} className="change-background-button">
-      Change Background
+    <StyledButton onClick={onClick} className={`${name}-button`}>
+      {name}
     </StyledButton>
   );
 };
@@ -25,7 +13,7 @@ export const ChangeBackgroundButton = ({ onClick }) => {
 export const ChangeFontButton = ({ onClick, fontStandard }) => {
   return (
     <StyledButton onClick={onClick} className="change-font-button">
-      {fontStandard ? "Use Dyslexia Font" : "Use Standard Font"}
+      {fontStandard ? "Dyslexia Font" : "Standard Font"}
     </StyledButton>
   );
 };
@@ -37,24 +25,20 @@ const StyledButton = styled.button`
   color: black;
 `;
 
-export const Buttons = ({
-  wordIndex,
-  setWordIndex,
-  setWord,
-  backgroundIndex,
-  setBackgroundIndex,
-}) => {
+export const Buttons = ({ backgroundIndex, setBackgroundIndex }) => {
   const [fontStandard, setFontStandard] = useState(true);
+  const fontName = fontStandard ? "Dyslexia Font" : "Standard Font";
 
   return (
-    <div className="buttons-container" style={{ width: 300 }}>
-      <NextButton onClick={() => nextWord(wordIndex, setWordIndex, setWord)} />
-      <ChangeBackgroundButton
+    <div className="buttons-container">
+      <Button
         onClick={() => changeBackground(backgroundIndex, setBackgroundIndex)}
+        name={"Background"}
       />
-      <ChangeFontButton
+      <Button
         onClick={() => changeFont(fontStandard, setFontStandard)}
         fontStandard={fontStandard}
+        name={fontName}
       />
     </div>
   );

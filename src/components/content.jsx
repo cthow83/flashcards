@@ -1,18 +1,13 @@
 import styled from "styled-components";
 
 const EmojiStyles = styled.div`
-  font-size: 10rem;
+  font-size: 8rem;
 `;
 
 export const Heading = () => {
   return (
     <>
-      <img
-        src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Bolton_School_Foundation_Joint_Logo.jpg/250px-Bolton_School_Foundation_Joint_Logo.jpg"
-        width="150px"
-      />
-      <p>Year 4</p>
-      <p>Spelling flashcards</p>
+      <h2>🐝 Spelling Bee 🐝</h2>
     </>
   );
 };
@@ -23,4 +18,8 @@ export const Word = ({ word }) => {
 
 export const Emoji = ({ emoji }) => {
   return <EmojiStyles id="emoji">{emoji}</EmojiStyles>;
+};
+
+export const Syllables = ({ syllables }) => {
+  return <h3 id="syllables">{syllables}</h3>;
 };
