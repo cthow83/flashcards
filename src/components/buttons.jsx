@@ -1,20 +1,28 @@
+import styled from "styled-components";
 import { nextWord, changeBackground } from "../helpers/flashcard-generator";
 
 export const NextButton = ({ onClick }) => {
   return (
-    <button onClick={onClick} className="next-button">
+    <StyledButton onClick={onClick} className="next-button">
       Next
-    </button>
+    </StyledButton>
   );
 };
 
 export const ChangeBackgroundButton = ({ onClick }) => {
   return (
-    <button onClick={onClick} className="change-background-button">
+    <StyledButton onClick={onClick} className="change-background-button">
       Change Background
-    </button>
+    </StyledButton>
   );
 };
+
+const StyledButton = styled.button`
+  margin: 0 2px;
+  height: 50px;
+  background-color: yellow;
+  color: black;
+`;
 
 export const Buttons = ({
   wordIndex,

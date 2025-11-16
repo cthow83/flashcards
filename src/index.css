@@ -1,3 +1,12 @@
+/* Ensure the Next button appears above overlapping elements */
+.next-button {
+  position: relative;
+}
+.change-background-button {
+  position: relative;
+  z-index: 2;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -44,10 +53,16 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: border-color 0.25s, transform 0.1s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 3px 3px;
 }
 button:hover {
   border-color: #646cff;
+}
+button:active {
+  transform: scale(0.92) translateY(2px);
+  box-shadow: none;
 }
 button:focus,
 button:focus-visible {
