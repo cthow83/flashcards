@@ -1,41 +1,42 @@
 const words = [
-  "adoration",
-  "admiration",
-  "coronation",
-  "detonation",
-  "observation",
-  "location",
-  "generation",
-  "exploration",
-  "combination",
-  "illustration",
+  "sadly",
+  "completely",
+  "wildly",
+  "bravely",
+  "gently",
+  "foolishly",
+  "proudly",
+  "horribly",
+  "nervously",
+  "happily",
 ];
 
 const syllables = [
-  "a-do-ra-tion",
-  "ad-mi-ra-tion",
-  "cor-o-na-tion",
-  "det-o-na-tion",
-  "ob-ser-va-tion",
-  "lo-ca-tion",
-  "gen-er-a-tion",
-  "ex-plor-a-tion",
-  "com-bi-na-tion",
-  "il-lus-tra-tion",
+  "sad-ly",
+  "com-plete-ly",
+  "wild-ly",
+  "brave-ly",
+  "gen-tly",
+  "fool-ish-ly",
+  "proud-ly",
+  "hor-ri-bly",
+  "nerv-ous-ly",
+  "hap-pi-ly",
 ];
 
 const emoji = [
-  "😍", // adoration
-  "👏", // admiration
-  "👑", // coronation
-  "💥", // detonation
-  "🔭", // observation
-  "📍", // location
-  "⚡️", // generation
-  "🧭", // exploration
-  "🔗", // combination
-  "🖼️", // illustration
+  "😢", // sadly
+  "🟰", // completely (equals sign for completeness)
+  "🌪️", // wildly
+  "🦁", // bravely (lion)
+  "🕊️", // gently (dove)
+  "🤪", // foolishly
+  "🏅", // proudly (medal)
+  "👹", // horribly
+  "😬", // nervously
+  "😊", // happily
 ];
+
 const backgroundColors = [
   "#ffffff",
   "#DBE1F0",
