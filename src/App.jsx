@@ -7,9 +7,9 @@ import "./App.css";
 
 function App() {
   const [word, setWord] = useState({
-    word: "adoration",
-    emoji: "😍",
-    syllables: "a-do-ra-tion",
+    word: "sadly",
+    emoji: "😢",
+    syllables: "sad-ly",
   });
   const [wordIndex, setWordIndex] = useState(1);
   const [backgroundIndex, setBackgroundIndex] = useState(1);
