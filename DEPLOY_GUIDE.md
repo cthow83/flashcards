@@ -66,3 +66,7 @@ Go to: https://cthow83.github.io/flashcards/
 ---
 
 **Tip:** If you change your repo name, update both the `homepage` in `package.json` and the `base` in `vite.config.js`.
+
+## Page location
+
+https://cthow83.github.io/flashcards/
