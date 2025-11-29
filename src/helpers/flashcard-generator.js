@@ -1,40 +1,40 @@
-const words = [
-  "sadly",
-  "completely",
-  "wildly",
-  "bravely",
-  "gently",
-  "foolishly",
-  "proudly",
-  "horribly",
-  "nervously",
-  "happily",
+export const words = [
+  "usually",
+  "finally",
+  "beautifully",
+  "thoughtfully",
+  "wonderfully",
+  "carefully",
+  "faithfully",
+  "peacefully",
+  "cruelly",
+  "generally",
 ];
 
-const syllables = [
-  "sad-ly",
-  "com-plete-ly",
-  "wild-ly",
-  "brave-ly",
-  "gen-tly",
-  "fool-ish-ly",
-  "proud-ly",
-  "hor-ri-bly",
-  "nerv-ous-ly",
-  "hap-pi-ly",
+export const syllables = [
+  "u-su-al-ly",
+  "fi-nal-ly",
+  "beau-ti-ful-ly",
+  "thought-ful-ly",
+  "won-der-ful-ly",
+  "care-ful-ly",
+  "faith-ful-ly",
+  "peace-ful-ly",
+  "cru-el-ly",
+  "gen-er-al-ly",
 ];
 
-const emoji = [
-  "😢", // sadly
-  "🟰", // completely (equals sign for completeness)
-  "🌪️", // wildly
-  "🦁", // bravely (lion)
-  "🕊️", // gently (dove)
-  "🤪", // foolishly
-  "🏅", // proudly (medal)
-  "👹", // horribly
-  "😬", // nervously
-  "😊", // happily
+export const emoji = [
+  "🔁", // usually
+  "🏁", // finally
+  "🌸", // beautifully
+  "💭", // thoughtfully
+  "✨", // wonderfully
+  "🧐", // carefully
+  "🙏", // faithfully
+  "🕊️", // peacefully
+  "😈", // cruelly
+  "📦", // generally
 ];
 
 const backgroundColors = [

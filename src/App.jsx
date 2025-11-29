@@ -3,13 +3,14 @@ import { Heading, Word, Emoji, Syllables } from "./components/content.jsx";
 import { Buttons } from "./components/buttons.jsx";
 import { nextWord } from "./helpers/flashcard-generator.js";
 import { Button } from "./components/buttons.jsx";
+import { words, syllables, emoji } from "./helpers/flashcard-generator.js";
 import "./App.css";
 
 function App() {
   const [word, setWord] = useState({
-    word: "sadly",
-    emoji: "😢",
-    syllables: "sad-ly",
+    word: words[0],
+    emoji: emoji[0],
+    syllables: syllables[0],
   });
   const [wordIndex, setWordIndex] = useState(1);
   const [backgroundIndex, setBackgroundIndex] = useState(1);
