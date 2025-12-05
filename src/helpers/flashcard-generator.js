@@ -1,40 +1,40 @@
 export const words = [
-  "usually",
-  "finally",
-  "beautifully",
-  "thoughtfully",
-  "wonderfully",
-  "carefully",
-  "faithfully",
-  "peacefully",
-  "cruelly",
-  "generally",
+  "chef",
+  "chalet",
+  "machine",
+  "brochure",
+  "parachute",
+  "chute",
+  "chaperone",
+  "chandelier",
+  "crochet",
+  "quiche",
 ];
 
 export const syllables = [
-  "u-su-al-ly",
-  "fi-nal-ly",
-  "beau-ti-ful-ly",
-  "thought-ful-ly",
-  "won-der-ful-ly",
-  "care-ful-ly",
-  "faith-ful-ly",
-  "peace-ful-ly",
-  "cru-el-ly",
-  "gen-er-al-ly",
+  "chef", // chef
+  "cha-let", // chalet
+  "ma-chine", // machine
+  "bro-chure", // brochure
+  "par-a-chute", // parachute
+  "chute", // chute
+  "cha-pe-rone", // chaperone
+  "chan-de-lier", // chandelier
+  "cro-chet", // crochet
+  "quiche", // quiche
 ];
 
 export const emoji = [
-  "🔁", // usually
-  "🏁", // finally
-  "🌸", // beautifully
-  "💭", // thoughtfully
-  "✨", // wonderfully
-  "🧐", // carefully
-  "🙏", // faithfully
-  "🕊️", // peacefully
-  "😈", // cruelly
-  "📦", // generally
+  "👨‍🍳", // chef
+  "🏔️", // chalet
+  "🤖", // machine
+  "📄", // brochure
+  "🪂", // parachute
+  "🛝", // chute
+  "🧑‍🎓", // chaperone
+  "💡", // chandelier
+  "🧶", // crochet
+  "🥧", // quiche
 ];
 
 const backgroundColors = [
