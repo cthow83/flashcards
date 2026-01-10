@@ -1,40 +1,40 @@
 export const words = [
-  "chef",
-  "chalet",
-  "machine",
-  "brochure",
-  "parachute",
-  "chute",
-  "chaperone",
-  "chandelier",
-  "crochet",
-  "quiche",
+  "expansion",
+  "extension",
+  "comprehension",
+  "tension",
+  "suspension",
+  "exclusion",
+  "provision",
+  "explosion",
+  "erosion",
+  "invasion",
 ];
 
 export const syllables = [
-  "chef", // chef
-  "cha-let", // chalet
-  "ma-chine", // machine
-  "bro-chure", // brochure
-  "par-a-chute", // parachute
-  "chute", // chute
-  "cha-pe-rone", // chaperone
-  "chan-de-lier", // chandelier
-  "cro-chet", // crochet
-  "quiche", // quiche
+  "ex-pan-sion", // expansion
+  "ex-ten-sion", // extension
+  "com-pre-hen-sion", // comprehension
+  "ten-sion", // tension
+  "sus-pen-sion", // suspension
+  "ex-clu-sion", // exclusion
+  "pro-vi-sion", // provision
+  "ex-plo-sion", // explosion
+  "e-ro-sion", // erosion
+  "in-va-sion", // invasion
 ];
 
 export const emoji = [
-  "👨‍🍳", // chef
-  "🏔️", // chalet
-  "🤖", // machine
-  "📄", // brochure
-  "🪂", // parachute
-  "🛝", // chute
-  "🧑‍🎓", // chaperone
-  "💡", // chandelier
-  "🧶", // crochet
-  "🥧", // quiche
+  "⬆️", // expansion
+  "➡️", // extension
+  "🧠", // comprehension
+  "🪢", // tension
+  "🪝", // suspension
+  "🚫", // exclusion
+  "📦", // provision
+  "💥", // explosion
+  "💧", // erosion
+  "🛡️", // invasion
 ];
 
 const backgroundColors = [
