@@ -1,40 +1,40 @@
 export const words = [
-  "expansion",
-  "extension",
-  "comprehension",
-  "tension",
-  "suspension",
-  "exclusion",
-  "provision",
-  "explosion",
-  "erosion",
-  "invasion",
+  "poisonous",
+  "dangerous",
+  "mountainous",
+  "marvellous",
+  "perilous",
+  "tremendous",
+  "enormous",
+  "jealous",
+  "precious",
+  "disastrous",
 ];
 
 export const syllables = [
-  "ex-pan-sion", // expansion
-  "ex-ten-sion", // extension
-  "com-pre-hen-sion", // comprehension
-  "ten-sion", // tension
-  "sus-pen-sion", // suspension
-  "ex-clu-sion", // exclusion
-  "pro-vi-sion", // provision
-  "ex-plo-sion", // explosion
-  "e-ro-sion", // erosion
-  "in-va-sion", // invasion
+  "poi-son-ous", // poisonous
+  "dan-ger-ous", // dangerous
+  "moun-tain-ous", // mountainous
+  "mar-vel-lous", // marvellous
+  "per-il-ous", // perilous
+  "tre-men-dous", // tremendous
+  "e-nor-mous", // enormous
+  "jeal-ous", // jealous
+  "pre-cious", // precious
+  "dis-as-trous", // disastrous
 ];
 
 export const emoji = [
-  "⬆️", // expansion
-  "➡️", // extension
-  "🧠", // comprehension
-  "🪢", // tension
-  "🪝", // suspension
-  "🚫", // exclusion
-  "📦", // provision
-  "💥", // explosion
-  "💧", // erosion
-  "🛡️", // invasion
+  "☠️", // poisonous
+  "⚠️", // dangerous
+  "⛰️", // mountainous
+  "✨", // marvellous
+  "🛑", // perilous
+  "🌋", // tremendous
+  "🐘", // enormous
+  "😒", // jealous
+  "💎", // precious
+  "🔥", // disastrous
 ];
 
 const backgroundColors = [
