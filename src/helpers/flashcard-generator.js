@@ -1,40 +1,40 @@
 export const words = [
-  "poisonous",
-  "dangerous",
-  "mountainous",
-  "marvellous",
-  "perilous",
-  "tremendous",
-  "enormous",
-  "jealous",
-  "precious",
-  "disastrous",
+  "courageous",
+  "outrageous",
+  "nervous",
+  "famous",
+  "adventurous",
+  "advantageous",
+  "ridiculous",
+  "carnivorous",
+  "rapturous",
+  "torturous",
 ];
 
 export const syllables = [
-  "poi-son-ous", // poisonous
-  "dan-ger-ous", // dangerous
-  "moun-tain-ous", // mountainous
-  "mar-vel-lous", // marvellous
-  "per-il-ous", // perilous
-  "tre-men-dous", // tremendous
-  "e-nor-mous", // enormous
-  "jeal-ous", // jealous
-  "pre-cious", // precious
-  "dis-as-trous", // disastrous
+  "cou-ra-geous",
+  "out-ra-geous",
+  "ner-vous",
+  "fa-mous",
+  "ad-ven-tur-ous",
+  "ad-van-ta-geous",
+  "ri-dic-u-lous",
+  "car-niv-or-ous",
+  "rap-tur-ous",
+  "tor-tur-ous",
 ];
 
 export const emoji = [
-  "☠️", // poisonous
-  "⚠️", // dangerous
-  "⛰️", // mountainous
-  "✨", // marvellous
-  "🛑", // perilous
-  "🌋", // tremendous
-  "🐘", // enormous
-  "😒", // jealous
-  "💎", // precious
-  "🔥", // disastrous
+  "🦁", // courageous
+  "😲", // outrageous
+  "😬", // nervous
+  "🌟", // famous
+  "🧗", // adventurous
+  "🏆", // advantageous
+  "🤪", // ridiculous
+  "🦖", // carnivorous
+  "😍", // rapturous
+  "😖", // torturous
 ];
 
 const backgroundColors = [
