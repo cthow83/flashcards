@@ -1,40 +1,40 @@
 export const words = [
-  "courageous",
-  "outrageous",
-  "nervous",
-  "famous",
-  "adventurous",
-  "advantageous",
-  "ridiculous",
-  "carnivorous",
-  "rapturous",
-  "torturous",
+  "merriment",
+  "happiness",
+  "plentiful",
+  "penniless",
+  "happily",
+  "prettiest",
+  "nastiness",
+  "beautiful",
+  "pitiful",
+  "silliness",
 ];
 
 export const syllables = [
-  "cou-ra-geous",
-  "out-ra-geous",
-  "ner-vous",
-  "fa-mous",
-  "ad-ven-tur-ous",
-  "ad-van-ta-geous",
-  "ri-dic-u-lous",
-  "car-niv-or-ous",
-  "rap-tur-ous",
-  "tor-tur-ous",
+  "mer-ri-ment",
+  "hap-pi-ness",
+  "plen-ti-ful",
+  "pen-ni-less",
+  "hap-pi-ly",
+  "pret-ti-est",
+  "nas-ti-ness",
+  "beau-ti-ful",
+  "pit-i-ful",
+  "sil-li-ness",
 ];
 
 export const emoji = [
-  "🦁", // courageous
-  "😲", // outrageous
-  "😬", // nervous
-  "🌟", // famous
-  "🧗", // adventurous
-  "🏆", // advantageous
-  "🤪", // ridiculous
-  "🦖", // carnivorous
-  "😍", // rapturous
-  "😖", // torturous
+  "🎉", // merriment
+  "😊", // happiness
+  "🌾", // plentiful
+  "💸", // penniless
+  "😃", // happily
+  "👑", // prettiest
+  "😈", // nastiness
+  "🌺", // beautiful
+  "😢", // pitiful
+  "🤪", // silliness
 ];
 
 const backgroundColors = [
