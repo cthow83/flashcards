@@ -1,40 +1,40 @@
 export const words = [
-  "merriment",
-  "happiness",
-  "plentiful",
-  "penniless",
-  "happily",
-  "prettiest",
-  "nastiness",
-  "beautiful",
-  "pitiful",
-  "silliness",
+  "serious",
+  "obvious",
+  "curious",
+  "hideous",
+  "spontaneous",
+  "courteous",
+  "furious",
+  "various",
+  "victorious",
+  "gaseous",
 ];
 
 export const syllables = [
-  "mer-ri-ment",
-  "hap-pi-ness",
-  "plen-ti-ful",
-  "pen-ni-less",
-  "hap-pi-ly",
-  "pret-ti-est",
-  "nas-ti-ness",
-  "beau-ti-ful",
-  "pit-i-ful",
-  "sil-li-ness",
+  "se-ri-ous", // serious
+  "ob-vi-ous", // obvious
+  "cu-ri-ous", // curious
+  "hid-e-ous", // hideous
+  "spon-ta-ne-ous", // spontaneous
+  "cour-te-ous", // courteous
+  "fu-ri-ous", // furious
+  "var-i-ous", // various
+  "vic-to-ri-ous", // victorious
+  "gas-e-ous", // gaseous
 ];
 
 export const emoji = [
-  "🎉", // merriment
-  "😊", // happiness
-  "🌾", // plentiful
-  "💸", // penniless
-  "😃", // happily
-  "👑", // prettiest
-  "😈", // nastiness
-  "🌺", // beautiful
-  "😢", // pitiful
-  "🤪", // silliness
+  "🤔", // serious
+  "🔎", // obvious
+  "🧐", // curious
+  "👹", // hideous
+  "💡", // spontaneous
+  "🤝", // courteous
+  "😡", // furious
+  "🌈", // various
+  "🏆", // victorious
+  "💨", // gaseous
 ];
 
 const backgroundColors = [
