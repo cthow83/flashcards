@@ -1,40 +1,40 @@
 export const words = [
-  "serious",
-  "obvious",
-  "curious",
-  "hideous",
-  "spontaneous",
-  "courteous",
-  "furious",
-  "various",
-  "victorious",
-  "gaseous",
+  "naughty",
+  "caught",
+  "fraught",
+  "automatic",
+  "astronaut",
+  "cause",
+  "author",
+  "applaud",
+  "taught",
+  "audience",
 ];
 
 export const syllables = [
-  "se-ri-ous", // serious
-  "ob-vi-ous", // obvious
-  "cu-ri-ous", // curious
-  "hid-e-ous", // hideous
-  "spon-ta-ne-ous", // spontaneous
-  "cour-te-ous", // courteous
-  "fu-ri-ous", // furious
-  "var-i-ous", // various
-  "vic-to-ri-ous", // victorious
-  "gas-e-ous", // gaseous
+  "naugh-ty", // naughty
+  "caught", // caught
+  "fraught", // fraught
+  "au-to-mat-ic", // automatic
+  "as-tro-naut", // astronaut
+  "cause", // cause
+  "au-thor", // author
+  "ap-plaud", // applaud
+  "taught", // taught
+  "au-di-ence", // audience
 ];
 
 export const emoji = [
-  "🤔", // serious
-  "🔎", // obvious
-  "🧐", // curious
-  "👹", // hideous
-  "💡", // spontaneous
-  "🤝", // courteous
-  "😡", // furious
-  "🌈", // various
-  "🏆", // victorious
-  "💨", // gaseous
+  "😈", // naughty
+  "🎣", // caught
+  "😟", // fraught
+  "🤖", // automatic
+  "👨‍🚀", // astronaut
+  "☀️", // cause
+  "✍️", // author
+  "👏", // applaud
+  "📚", // taught
+  "👥", // audience
 ];
 
 const backgroundColors = [
