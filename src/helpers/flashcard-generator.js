@@ -1,40 +1,40 @@
 export const words = [
-  "naughty",
-  "caught",
-  "fraught",
-  "automatic",
-  "astronaut",
-  "cause",
-  "author",
-  "applaud",
-  "taught",
-  "audience",
+  "invention",
+  "injection",
+  "action",
+  "hesitation",
+  "completion",
+  "stagnation",
+  "nomination",
+  "migration",
+  "conservation",
+  "selection",
 ];
 
 export const syllables = [
-  "naugh-ty", // naughty
-  "caught", // caught
-  "fraught", // fraught
-  "au-to-mat-ic", // automatic
-  "as-tro-naut", // astronaut
-  "cause", // cause
-  "au-thor", // author
-  "ap-plaud", // applaud
-  "taught", // taught
-  "au-di-ence", // audience
+  "in-ven-tion", // invention
+  "in-jec-tion", // injection
+  "ac-tion", // action
+  "hes-i-ta-tion", // hesitation
+  "com-ple-tion", // completion
+  "stag-na-tion", // stagnation
+  "nom-i-na-tion", // nomination
+  "mi-gra-tion", // migration
+  "con-ser-va-tion", // conservation
+  "se-lec-tion", // selection
 ];
 
 export const emoji = [
-  "😈", // naughty
-  "🎣", // caught
-  "😟", // fraught
-  "🤖", // automatic
-  "👨‍🚀", // astronaut
-  "☀️", // cause
-  "✍️", // author
-  "👏", // applaud
-  "📚", // taught
-  "👥", // audience
+  "💡", // invention
+  "💉", // injection
+  "🎬", // action
+  "⏳", // hesitation
+  "✅", // completion
+  "🦆", // stagnation
+  "🏆", // nomination
+  "🦋", // migration
+  "🌳", // conservation
+  "🎯", // selection
 ];
 
 const backgroundColors = [
