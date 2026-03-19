@@ -1,40 +1,40 @@
 export const words = [
-  "invention",
-  "injection",
-  "action",
-  "hesitation",
-  "completion",
-  "stagnation",
-  "nomination",
-  "migration",
-  "conservation",
-  "selection",
+  "expression", // expression
+  "discussion", // discussion
+  "confession", // confession
+  "permission", // permission
+  "admission", // admission
+  "impression", // impression
+  "obsession", // obsession
+  "procession", // procession
+  "omission", // omission
+  "concussion", // concussion
 ];
 
 export const syllables = [
-  "in-ven-tion", // invention
-  "in-jec-tion", // injection
-  "ac-tion", // action
-  "hes-i-ta-tion", // hesitation
-  "com-ple-tion", // completion
-  "stag-na-tion", // stagnation
-  "nom-i-na-tion", // nomination
-  "mi-gra-tion", // migration
-  "con-ser-va-tion", // conservation
-  "se-lec-tion", // selection
+  "ex-pres-sion", // expression
+  "dis-cus-sion", // discussion
+  "con-fes-sion", // confession
+  "per-mis-sion", // permission
+  "ad-mis-sion", // admission
+  "im-pres-sion", // impression
+  "ob-ses-sion", // obsession
+  "pro-ces-sion", // procession
+  "o-mis-sion", // omission
+  "con-cus-sion", // concussion
 ];
 
 export const emoji = [
-  "💡", // invention
-  "💉", // injection
-  "🎬", // action
-  "⏳", // hesitation
-  "✅", // completion
-  "🦆", // stagnation
-  "🏆", // nomination
-  "🦋", // migration
-  "🌳", // conservation
-  "🎯", // selection
+  "🗣️", // expression
+  "💬", // discussion
+  "🙏", // confession
+  "📝", // permission
+  "🚪", // admission
+  "👤", // impression
+  "🔄", // obsession
+  "🚶", // procession
+  "❌", // omission
+  "💥", // concussion
 ];
 
 const backgroundColors = [
