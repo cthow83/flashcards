@@ -1,40 +1,40 @@
 export const words = [
-  "expression", // expression
-  "discussion", // discussion
-  "confession", // confession
-  "permission", // permission
-  "admission", // admission
-  "impression", // impression
-  "obsession", // obsession
-  "procession", // procession
-  "omission", // omission
-  "concussion", // concussion
+  "musician", // musician
+  "magician", // magician
+  "electrician", // electrician
+  "politician", // politician
+  "mathematician", // mathematician
+  "technician", // technician
+  "optician", // optician
+  "beautician", // beautician
+  "physician", // physician
+  "dietician", // dietician
 ];
 
 export const syllables = [
-  "ex-pres-sion", // expression
-  "dis-cus-sion", // discussion
-  "con-fes-sion", // confession
-  "per-mis-sion", // permission
-  "ad-mis-sion", // admission
-  "im-pres-sion", // impression
-  "ob-ses-sion", // obsession
-  "pro-ces-sion", // procession
-  "o-mis-sion", // omission
-  "con-cus-sion", // concussion
+  "mu-si-cian", // musician
+  "ma-gi-cian", // magician
+  "e-lec-tri-cian", // electrician
+  "pol-i-ti-cian", // politician
+  "math-e-ma-ti-cian", // mathematician
+  "tech-ni-cian", // technician
+  "op-ti-cian", // optician
+  "beau-ti-cian", // beautician
+  "phy-si-cian", // physician
+  "di-e-ti-cian", // dietician
 ];
 
 export const emoji = [
-  "🗣️", // expression
-  "💬", // discussion
-  "🙏", // confession
-  "📝", // permission
-  "🚪", // admission
-  "👤", // impression
-  "🔄", // obsession
-  "🚶", // procession
-  "❌", // omission
-  "💥", // concussion
+  "🎵", // musician
+  "🎩", // magician
+  "⚡", // electrician
+  "🏛️", // politician
+  "🔢", // mathematician
+  "🔧", // technician
+  "👓", // optician
+  "💄", // beautician
+  "🩺", // physician
+  "🥗", // dietician
 ];
 
 const backgroundColors = [
