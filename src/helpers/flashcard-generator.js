@@ -1,40 +1,40 @@
 export const words = [
-  "musician", // musician
-  "magician", // magician
-  "electrician", // electrician
-  "politician", // politician
-  "mathematician", // mathematician
-  "technician", // technician
-  "optician", // optician
-  "beautician", // beautician
-  "physician", // physician
-  "dietician", // dietician
+  "group",
+  "height",
+  "particular",
+  "potatoes",
+  "separate",
+  "surprise",
+  "through",
+  "various",
+  "though",
+  "woman",
 ];
 
 export const syllables = [
-  "mu-si-cian", // musician
-  "ma-gi-cian", // magician
-  "e-lec-tri-cian", // electrician
-  "pol-i-ti-cian", // politician
-  "math-e-ma-ti-cian", // mathematician
-  "tech-ni-cian", // technician
-  "op-ti-cian", // optician
-  "beau-ti-cian", // beautician
-  "phy-si-cian", // physician
-  "di-e-ti-cian", // dietician
+  "group",
+  "height",
+  "par-tic-u-lar",
+  "po-ta-toes",
+  "sep-a-rate",
+  "sur-prise",
+  "through",
+  "var-i-ous",
+  "though",
+  "wo-man",
 ];
 
 export const emoji = [
-  "🎵", // musician
-  "🎩", // magician
-  "⚡", // electrician
-  "🏛️", // politician
-  "🔢", // mathematician
-  "🔧", // technician
-  "👓", // optician
-  "💄", // beautician
-  "🩺", // physician
-  "🥗", // dietician
+  "👥", // group
+  "📏", // height
+  "🎯", // particular
+  "🥔", // potatoes
+  "✂️", // separate
+  "😮", // surprise
+  "🚪", // through
+  "🔀", // various
+  "🤔", // though
+  "👩", // woman
 ];
 
 const backgroundColors = [
