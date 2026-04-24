@@ -1,40 +1,40 @@
 export const words = [
-  "group",
-  "height",
-  "particular",
-  "potatoes",
-  "separate",
-  "surprise",
-  "through",
-  "various",
-  "though",
-  "woman",
+  "scene",
+  "seen",
+  "whose",
+  "who's",
+  "affect",
+  "effect",
+  "here",
+  "hear",
+  "heel",
+  "heal",
 ];
 
 export const syllables = [
-  "group",
-  "height",
-  "par-tic-u-lar",
-  "po-ta-toes",
-  "sep-a-rate",
-  "sur-prise",
-  "through",
-  "var-i-ous",
-  "though",
-  "wo-man",
+  "scene",
+  "seen",
+  "whose",
+  "who's",
+  "af-fect",
+  "ef-fect",
+  "here",
+  "hear",
+  "heel",
+  "heal",
 ];
 
 export const emoji = [
-  "👥", // group
-  "📏", // height
-  "🎯", // particular
-  "🥔", // potatoes
-  "✂️", // separate
-  "😮", // surprise
-  "🚪", // through
-  "🔀", // various
-  "🤔", // though
-  "👩", // woman
+  "🎬", // scene
+  "👁️", // seen
+  "❓", // whose
+  "🙋", // who's
+  "💭", // affect
+  "✨", // effect
+  "📍", // here
+  "👂", // hear
+  "👟", // heel
+  "🩹", // heal
 ];
 
 const backgroundColors = [
