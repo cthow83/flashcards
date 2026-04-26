@@ -40,14 +40,14 @@ export const emoji = [
 export const sentence = [
   "The opening of the story set the scene for the reader.",
   "The spies were seen hiding in the bushes.",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "'Whose socks are these?' asked the teacher.",
+  "Who's going to the fair on Saturday?",
+  "The heat began to affect his running times.",
+  "The medicine had an immediate effect",
+  "Here are the ruins of the old castle.",
+  "It was difficult to hear over the noise in the playground.",
+  "Daniel hurt his heel playing football in the park.",
+  "The cut on his leg began to heal the next day.",
 ];
 
 const backgroundColors = [
