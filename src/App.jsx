@@ -1,9 +1,20 @@
 import { useState } from "react";
-import { Heading, Word, Emoji, Syllables } from "./components/content.jsx";
+import {
+  Heading,
+  Word,
+  Emoji,
+  Syllables,
+  Sentence,
+} from "./components/content.jsx";
 import { Buttons } from "./components/buttons.jsx";
 import { nextWord } from "./helpers/flashcard-generator.js";
 import { Button } from "./components/buttons.jsx";
-import { words, syllables, emoji } from "./helpers/flashcard-generator.js";
+import {
+  words,
+  syllables,
+  emoji,
+  sentence,
+} from "./helpers/flashcard-generator.js";
 import "./App.css";
 
 function App() {
@@ -11,6 +22,7 @@ function App() {
     word: words[0],
     emoji: emoji[0],
     syllables: syllables[0],
+    sentence: sentence[0],
   });
   const [wordIndex, setWordIndex] = useState(1);
   const [backgroundIndex, setBackgroundIndex] = useState(1);
@@ -26,6 +38,7 @@ function App() {
       />
       <Word word={word.word} />
       <Syllables syllables={word.syllables} />
+      <Sentence sentence={word.sentence} word={word.word} />
       <Emoji emoji={word.emoji} />
       <Button
         onClick={() => nextWord(wordIndex, setWordIndex, setWord)}

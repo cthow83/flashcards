@@ -37,6 +37,19 @@ export const emoji = [
   "🩹", // heal
 ];
 
+export const sentence = [
+  "The opening of the story set the scene for the reader.",
+  "The spies were seen hiding in the bushes.",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+];
+
 const backgroundColors = [
   "#ffffff",
   "#DBE1F0",
@@ -58,6 +71,7 @@ export const nextWord = (wordIndex, setWordIndex, setWord) => {
     word: words[wordIndex],
     emoji: emoji[wordIndex],
     syllables: syllables[wordIndex],
+    sentence: sentence[wordIndex],
   });
 };
 
