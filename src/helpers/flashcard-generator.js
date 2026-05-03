@@ -39,7 +39,7 @@ export const emoji = [
 
 export const sentence = [
   "A wheel is a circle so can  spin and turn easily.",
-  "It had been a centruy since anybody had visited the castle.",
+  "It had been a century since anybody had visited the castle.",
   "Herakles accidentally injured a centaur with an arrow.",
   "The circus comes every summer and sets up a big tent in the park.",
   "A princess is the daughter or granddaughter of a king or queen.",
