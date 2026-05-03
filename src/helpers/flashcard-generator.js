@@ -1,53 +1,53 @@
 export const words = [
-  "scene",
-  "seen",
-  "whose",
-  "who's",
-  "affect",
-  "effect",
-  "here",
-  "hear",
-  "heel",
-  "heal",
+  "circle",
+  "century",
+  "centaur",
+  "circus",
+  "princess",
+  "voice",
+  "medicine",
+  "celebrate",
+  "celery",
+  "pencil",
 ];
 
 export const syllables = [
-  "scene",
-  "seen",
-  "whose",
-  "who's",
-  "af-fect",
-  "ef-fect",
-  "here",
-  "hear",
-  "heel",
-  "heal",
+  "cir-cle",
+  "cen-tu-ry",
+  "cen-taur",
+  "cir-cus",
+  "prin-cess",
+  "voice",
+  "med-i-cine",
+  "cel-e-brate",
+  "ce-le-ry",
+  "pen-cil",
 ];
 
 export const emoji = [
-  "🎬", // scene
-  "👁️", // seen
-  "❓", // whose
-  "🙋", // who's
-  "💭", // affect
-  "✨", // effect
-  "📍", // here
-  "👂", // hear
-  "👟", // heel
-  "🩹", // heal
+  "⚪️", // circle
+  "💯", // century
+  "🐎", // centaur
+  "🎪", // circus
+  "👸", // princess
+  "🗣️", // voice
+  "💊", // medicine
+  "🎉", // celebrate
+  "🥬", // celery
+  "✏️", // pencil
 ];
 
 export const sentence = [
-  "The opening of the story set the scene for the reader.",
-  "The spies were seen hiding in the bushes.",
-  "'Whose socks are these?' asked the teacher.",
-  "Who's going to the fair on Saturday?",
-  "The heat began to affect his running times.",
-  "The medicine had an immediate effect",
-  "Here are the ruins of the old castle.",
-  "It was difficult to hear over the noise in the playground.",
-  "Daniel hurt his heel playing football in the park.",
-  "The cut on his leg began to heal the next day.",
+  "A wheel is a circle so can  spin and turn easily.",
+  "It had been a centruy since anybody had visited the castle.",
+  "Herakles accidentally injured a centaur with an arrow.",
+  "The circus comes every summer and sets up a big tent in the park.",
+  "A princess is the daughter or granddaughter of a king or queen.",
+  "As they crept through the house, Fiona thought she heard a voice.",
+  "Ben's grandfather had to take medicine every day for his bad back.",
+  "The school's hockey team began to celebrate afer they won the tournament.",
+  "Kristen love the crunch of eating celery",
+  "Aoife put her hand up to ask the teacher for a new pencil.",
 ];
 
 const backgroundColors = [
