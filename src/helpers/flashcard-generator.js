@@ -1,53 +1,53 @@
 export const words = [
-  "circle",
-  "century",
-  "centaur",
-  "circus",
-  "princess",
-  "voice",
-  "medicine",
-  "celebrate",
-  "celery",
-  "pencil",
+  "solar",
+  "solution",
+  "soluble",
+  "insoluble",
+  "dissolve",
+  "real",
+  "reality",
+  "realistic",
+  "unreal",
+  "realisation",
 ];
 
 export const syllables = [
-  "cir-cle",
-  "cen-tu-ry",
-  "cen-taur",
-  "cir-cus",
-  "prin-cess",
-  "voice",
-  "med-i-cine",
-  "cel-e-brate",
-  "ce-le-ry",
-  "pen-cil",
+  "so-lar",
+  "so-lu-tion",
+  "sol-u-ble",
+  "in-sol-u-ble",
+  "dis-solve",
+  "real",
+  "re-al-i-ty",
+  "re-al-is-tic",
+  "un-real",
+  "re-al-i-sa-tion",
 ];
 
 export const emoji = [
-  "⚪️", // circle
-  "💯", // century
-  "🐎", // centaur
-  "🎪", // circus
-  "👸", // princess
-  "🗣️", // voice
-  "💊", // medicine
-  "🎉", // celebrate
-  "🥬", // celery
-  "✏️", // pencil
+  "☀️", // solar
+  "🧪", // solution
+  "💧", // soluble
+  "🪨", // insoluble
+  "🔬", // dissolve
+  "✅", // real
+  "🌍", // reality
+  "🎯", // realistic
+  "✨", // unreal
+  "💡", // realisation
 ];
 
 export const sentence = [
-  "A wheel is a circle so can  spin and turn easily.",
-  "It had been a century since anybody had visited the castle.",
-  "Herakles accidentally injured a centaur with an arrow.",
-  "The circus comes every summer and sets up a big tent in the park.",
-  "A princess is the daughter or granddaughter of a king or queen.",
-  "As they crept through the house, Fiona thought she heard a voice.",
-  "Ben's grandfather had to take medicine every day for his bad back.",
-  "The school's hockey team began to celebrate afer they won the tournament.",
-  "Kristen love the crunch of eating celery",
-  "Aoife put her hand up to ask the teacher for a new pencil.",
+  "The solar panels collect sunlight to make electricity.",
+  "A saltwater solution is a liquid mixture of salt and water.",
+  "Salt is soluble in water, so it mixes and disappears.",
+  "Sand is insoluble in oil, so it does not mix.",
+  "The sugar will dissolve when you stir it into the tea.",
+  "That story is real — it really happened to my neighbour.",
+  "Virtual reality can feel real, but it is still a simulation.",
+  "A realistic plan sets small goals that are easy to reach.",
+  "The magician's trick seemed unreal; everyone gasped in surprise.",
+  "Her sudden realisation made her smile as she understood the answer.",
 ];
 
 const backgroundColors = [
