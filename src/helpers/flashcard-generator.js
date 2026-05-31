@@ -1,53 +1,53 @@
 export const words = [
-  "solar",
-  "solution",
-  "soluble",
-  "insoluble",
-  "dissolve",
-  "real",
-  "reality",
-  "realistic",
-  "unreal",
-  "realisation",
+  "phone",
+  "telephone",
+  "phonics",
+  "microphone",
+  "phonograph",
+  "sign",
+  "signature",
+  "assign",
+  "designer",
+  "signaller",
 ];
 
 export const syllables = [
-  "so-lar",
-  "so-lu-tion",
-  "sol-u-ble",
-  "in-sol-u-ble",
-  "dis-solve",
-  "real",
-  "re-al-i-ty",
-  "re-al-is-tic",
-  "un-real",
-  "re-al-i-sa-tion",
+  "phone",
+  "tel-e-phone",
+  "pho-nics",
+  "mi-cro-phone",
+  "pho-no-graph",
+  "sign",
+  "sig-na-ture",
+  "as-sign",
+  "de-sign-er",
+  "sign-al-ler",
 ];
 
 export const emoji = [
-  "☀️", // solar
-  "🧪", // solution
-  "💧", // soluble
-  "🪨", // insoluble
-  "🔬", // dissolve
-  "✅", // real
-  "🌍", // reality
-  "🎯", // realistic
-  "✨", // unreal
-  "💡", // realisation
+  "📱", // phone
+  "☎️", // telephone
+  "🔤", // phonics
+  "🎤", // microphone
+  "📻", // phonograph
+  "✍️", // sign
+  "🖊️", // signature
+  "📝", // assign
+  "🎨", // designer
+  "🚦", // signaller
 ];
 
 export const sentence = [
-  "The solar panels collect sunlight to make electricity.",
-  "A saltwater solution is a liquid mixture of salt and water.",
-  "Salt is soluble in water, so it mixes and disappears.",
-  "Sand is insoluble in oil, so it does not mix.",
-  "The sugar will dissolve when you stir it into the tea.",
-  "That story is real — it really happened to my neighbour.",
-  "Virtual reality can feel real, but it is still a simulation.",
-  "A realistic plan sets small goals that are easy to reach.",
-  "The magician's trick seemed unreal; everyone gasped in surprise.",
-  "Her sudden realisation made her smile as she understood the answer.",
+  "I called my friend on the phone to say hello.",
+  "The old telephone rang loudly in the hallway.",
+  "Phonics helps children learn to read new words.",
+  "She spoke into the microphone during the concert.",
+  "The phonograph played a beautiful melody from a vinyl record.",
+  "Please sign your name at the bottom of the form.",
+  "His signature was unique and easy to recognize.",
+  "The teacher will assign homework for the weekend.",
+  "The designer created a stunning new logo for the company.",
+  "The signaller waved the flag to send a message to the train.",
 ];
 
 const backgroundColors = [
