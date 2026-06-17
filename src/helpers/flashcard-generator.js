@@ -1,53 +1,53 @@
 export const words = [
-  "phone",
-  "telephone",
-  "phonics",
-  "microphone",
-  "phonograph",
-  "sign",
-  "signature",
-  "assign",
-  "designer",
-  "signaller",
+  "bicycle",
+  "biplane",
+  "biped",
+  "bicentennial",
+  "biannual",
+  "bilingual",
+  "biscuit",
+  "biceps",
+  "binoculars",
+  "bisect",
 ];
 
 export const syllables = [
-  "phone",
-  "tel-e-phone",
-  "pho-nics",
-  "mi-cro-phone",
-  "pho-no-graph",
-  "sign",
-  "sig-na-ture",
-  "as-sign",
-  "de-sign-er",
-  "sign-al-ler",
+  "bi-cy-cle",
+  "bi-plane",
+  "bi-ped",
+  "bi-cen-ten-ni-al",
+  "bi-an-nu-al",
+  "bi-lin-gual",
+  "bi-cuit",
+  "bi-ceps",
+  "bi-noc-u-lars",
+  "bi-sect",
 ];
 
 export const emoji = [
-  "📱", // phone
-  "☎️", // telephone
-  "🔤", // phonics
-  "🎤", // microphone
-  "📻", // phonograph
-  "✍️", // sign
-  "🖊️", // signature
-  "📝", // assign
-  "🎨", // designer
-  "🚦", // signaller
+  "🚲", // bicycle
+  "✈️", // biplane
+  "🚶", // biped
+  "🎉", // bicentennial
+  "📅", // biannual
+  "🗣️", // bilingual
+  "🍪", // biscuit
+  "💪", // biceps
+  "🔭", // binoculars
+  "✂️", // bisect
 ];
 
 export const sentence = [
-  "I called my friend on the phone to say hello.",
-  "The old telephone rang loudly in the hallway.",
-  "Phonics helps children learn to read new words.",
-  "She spoke into the microphone during the concert.",
-  "The phonograph played a beautiful melody from a vinyl record.",
-  "Please sign your name at the bottom of the form.",
-  "His signature was unique and easy to recognize.",
-  "The teacher will assign homework for the weekend.",
-  "The designer created a stunning new logo for the company.",
-  "The signaller waved the flag to send a message to the train.",
+  "A tricycle has three wheels, whereas a bicycle has two.",
+  "The biplane soared through the sky",
+  "Humans walk on two legs, they are a good example of a biped.",
+  "A bicentennial is when you celebrate an important event that happened 200 years ago.",
+  "Sunday was the biannual cake decorating contest.",
+  "Ruth is bilingual, she can speak French and English.",
+  "Ruth tiptoed downstairs and chose a special biscuit from the tin.",
+  "The fitness instructor looked at the mirror and flexed his biceps",
+  "Chen used his binoculars to see the buildings in the distance",
+  "They are building a new road that will bisect the town",
 ];
 
 const backgroundColors = [
